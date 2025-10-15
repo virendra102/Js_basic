@@ -68,11 +68,24 @@ const user =[
 
 //console.log(user[2].username)
 
-console.log(leetUser)
+// console.log(leetUser)
 
-console.log(Object.keys(leetUser));
-console.log(Object.values(leetUser));
-console.log(Object.entries(leetUser));
+// console.log(Object.keys(leetUser));
+// console.log(Object.values(leetUser));
+// console.log(Object.entries(leetUser));
 
-console.log(leetUser.hasOwnProperty("name"))
-console.log(leetUser.hasOwnProperty("email"))
+// console.log(leetUser.hasOwnProperty("name"))
+// console.log(leetUser.hasOwnProperty("email"))
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "699",
+    courseInstructor: "hitesh"
+
+}
+//object de-structure
+const {courseInstructor:instructor} = course
+
+console.log(instructor);
+
