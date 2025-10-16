@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('34')
 const anotherId = Symbol('34')
 
-console.log(id == anotherId)
+// console.log(id == anotherId)
 
 //const bigNum = 4651444494465498411644n
 
@@ -45,8 +45,8 @@ let my = "rvybot.com";
 let anotherName = my
 anotherName = "rv02.com"
 
-console.log(my)
-console.log(anotherName)
+// console.log(my)
+// console.log(anotherName)
 
 let userOne = {
     email: "useone@gamil.com",
@@ -57,5 +57,5 @@ let userTwo = userOne
 
 userTwo.email = "raval.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);

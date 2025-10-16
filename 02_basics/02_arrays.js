@@ -4,8 +4,8 @@ const dc = ["Superman","Batman","flash"];
 // console.log(mcu)
 // console.log(dc)
 
-// mcu.push(dc);
-
+ mcu.push(dc);
+//console.log(mcu)
 // console.log(mcu[3][1])
 
 // const allU = mcu.concat(dc);
@@ -20,7 +20,7 @@ const dc = ["Superman","Batman","flash"];
 const hero = [1,2,3,[4,5,6],7,8]
 
 const heroCou = hero.flat(Infinity)
-//console.log(heroCou)
+console.log(heroCou)
 
 console.log(Array.isArray("ranank"))
 console.log(Array.from("hitessh"))

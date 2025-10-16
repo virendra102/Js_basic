@@ -4,7 +4,7 @@ const myArr= [0,1,2,3,4,5]
 const myHeros = ["shan chi","ironfist"]
 
 const myArr2 = new Array(1,2,3,4)
-// console.log(myArr2[1])
+ console.log(myArr2[1])
 
 // Array Methods
 
@@ -12,14 +12,14 @@ const myArr2 = new Array(1,2,3,4)
 // myArr2.pop()
 
 // myArr.unshift(8)
-// myArr2.shift()
-
+ //myArr2.shift()
+ 
 // console.log(myArr.includes(5));
 // console.log(myArr.indexOf(2));
 
 const newArr = myArr.join()
 
-// console.log(newArr)
+//  console.log(newArr)
 
 // slice, splice 
 

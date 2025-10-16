@@ -1,9 +1,9 @@
-// let score = 33
+ let score = 33
 
 // console.log(typeof score);
 // console.log(typeof (score));
 
-// let valueInNumer = Number(score)
+let valueInNumer = Number(score)
 // console.log(typeof valueInNumer)
 // console.log(valueInNumer)
 
@@ -14,7 +14,7 @@
 
 let isLoggedIn="virendra"
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn)
+let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn)
 
 //1 => true; 0 => false
