@@ -18,13 +18,14 @@ for (const key in programming) {
     
 }
 
-const map = new Map();
-map.set("IN", "INDIA");
-map.set("UK", "LONDON");
-map.set("JAP", "TOKYO");
+// const map = new Map();
+// map.set("IN", "INDIA");
+// map.set("UK", "LONDON");
+// map.set("JAP", "TOKYO");
 
-for (const key in map) {
-    console.log(map[key]);
+// map is not iteratable the for in will not show output.
+// for (const key in map) {
+//     console.log(map[key]);
     
     
-}
+// }
